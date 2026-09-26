@@ -1,0 +1,10 @@
+node_modules/
+build/
+.DS_Store
+.env
+.env.local
+
+# 109 MB background video used by the landing and login pages — over
+# GitHub's 100 MB hard limit, so it is not in the repo. See
+# siremar-react/FRONTEND-NOTES.md.
+siremar-react/src/images/margarita.mp4

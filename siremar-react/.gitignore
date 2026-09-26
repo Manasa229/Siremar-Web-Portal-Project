@@ -1,0 +1,10 @@
+node_modules/
+build/
+.DS_Store
+.env
+.env.local
+
+# Background video for the landing and login pages — 109 MB, over GitHub's
+# 100 MB hard limit, so it is kept out of the repo rather than breaking the
+# push. It is preserved outside the repo; see README.
+src/images/margarita.mp4

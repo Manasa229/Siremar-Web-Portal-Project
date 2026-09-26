@@ -85,3 +85,28 @@ If the Resident is created by the Admin then they should reset their password on
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
+## Repository layout
+
+| Path | What it is |
+|------|------------|
+| `siremar-react/` | React front end — the resident, inspector, business and flight portals |
+| `siremar-php/` | PHP API: login, resident, admin and shared CRUD helpers |
+| `siremar-chat-server/` | Node chat server |
+| `siremar.sql` | MySQL schema and seed data |
+| `Group9-WDM.pptx`, `Minutes of Meeting_SIREMAR_Group9.pdf` | Coursework |
+
+### About `siremar-react/`
+
+The front end was never in this repository. It existed only as **nine
+diverged working copies** on one laptop, all sharing the same git history
+(`57194d6`, originally `gitlab.com/manasa2291/siremar`) but each carrying
+uncommitted work on top. No single copy was complete: together they held 334
+distinct source files, while the largest one had 228.
+
+They were consolidated by keeping, for each path, the most recently modified
+version. Of the 86 files that differed between copies, the April 2022 final
+submission won most — that being the most developed state of the code.
+
+`siremar-react/src/images/margarita.mp4` (109 MB) is excluded: it is the
+background video for the landing and login pages, and GitHub rejects files
+above 100 MB. The front end will not build without it.
